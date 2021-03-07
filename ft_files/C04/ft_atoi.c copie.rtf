@@ -1,0 +1,37 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2513
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 int        ft_atoi(char *str)\
+\{\
+    int    chiffre;\
+    int    signe;\
+    int i;\
+\
+    i = 0;\
+    signe = 1;\
+    chiffre = 0;\
+    while ((str[i] >= '\\t' && str[i] <= '\\r') || str[i] == ' ')\
+        str++;\
+    while (str[i] == '+' || str[i] == '-')\
+    \{\
+        if (str[i] == '-')\
+            signe = signe * -1;\
+        str++;\
+    \}\
+    while (str[i] >= '0' && str[i] <= '9')\
+    \{\
+        chiffre = (chiffre * 10) + str[i] - '0';\
+        str++;\
+    \}\
+    return (chiffre * signe);\
+\}\
+\
+int main() \{\
+  int str = " ---+--+1234ab567";\
+  ft_atoi(str);\
+  return 0;\
+\}}

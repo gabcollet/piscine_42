@@ -1,0 +1,5 @@
+Credentials cache: API:8DC9ED96-1C23-41D6-B633-1554FA34A4E0
+        Principal: gcollet@42QUEBEC.COM
+
+  Issued                Expires               Principal
+Feb 10 13:26:53 2021  Feb 10 23:26:53 2021  krbtgt/42QUEBEC.COM@42QUEBEC.COM
