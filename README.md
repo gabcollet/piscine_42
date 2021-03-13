@@ -4,7 +4,8 @@ Lorsque j'ai terminer la piscine j'était rendu au projet c08. Il est donc impor
 
 * Pour ton bien je te conseille personnellement de t'inspirer de mes codes ou de les utiliser pour savoir quoi étudier mais pas de copier/coller. Cela ne t'aidera en rien
 
-« Nous sommes ce que nous faisons de manière répétitive, l’excellence n’est donc pas un acte mais une habitude »
+« Nous sommes ce que nous faisons de manière répétitive, 
+l’excellence n’est donc pas un acte mais une habitude »
     - Aristote
 
 -------------------------------------------------------
