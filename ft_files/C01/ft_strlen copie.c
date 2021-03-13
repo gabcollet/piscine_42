@@ -1,15 +1,15 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strlen.c                                        :+:      :+:    :+:   */
+/*   ft_strlen copie.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gcollet <marvin@42quebec.com>              +#+  +:+       +#+        */
+/*   By: gab <gab@student.42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/16 12:16:50 by gcollet           #+#    #+#             */
-/*   Updated: 2021/02/16 13:32:48 by gcollet          ###   ########.fr       */
+/*   Updated: 2021/03/12 16:05:30 by gab              ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include <unistd.h>
+
 #include <stdio.h>
 
 int		ft_strlen(char *str)
@@ -28,5 +28,5 @@ int		main()
 {
 	char str[6] = "Hello";
 	ft_strlen(str);
-	printf("%d\n", count);
+	printf("%d\n", ft_strlen);
 }
